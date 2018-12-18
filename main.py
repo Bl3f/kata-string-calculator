@@ -5,3 +5,4 @@ class StringCalculator:
     def add(self, string):
         if string == '':
             return 0
+        return int(string)
